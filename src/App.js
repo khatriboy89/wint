@@ -8,7 +8,7 @@ function App() {
     password: "admin123",
   };
 
-  // const [user, setUser] = useState({email: "" , password:""});
+  const [user, setUser] = useState({email: "" , password:""});
   const [email, setName] = useState('');
   const [password, setPwd] = useState('');
   const [error, setError] = useState("");
